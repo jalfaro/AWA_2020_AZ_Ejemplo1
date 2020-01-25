@@ -1,0 +1,61 @@
+h1 {
+  color: #d86767;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: #222222;
+  font-size: 20px;
+}
+
+.fondo-verde {
+  background-color: rgba(132, 194, 132, 0.37);
+}
+
+.fondo-azul {
+  background-color: #300fe9;
+}
+
+.altura-completa {
+  height: 100vh;
+}
+
+.imagen-homogenea {
+  width: 100px;
+  height: 100px;
+}
+
+.imagen-perfil {
+  width: 150px;
+  height: 150px;
+}
+
+.ancho-homegeneo {
+  height: 33%;
+}
+
+#redes {
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 3px solid #000000;
+  background-color: #75e679;
+  margin: 10px;
+  padding: 10px;
+  height: 45%;
+}
+
+#hobbies {
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border: 3px solid #000000;
+  background-color: #75e2e6;
+  margin: 10px;
+  padding: 10px;
+  height: 45%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

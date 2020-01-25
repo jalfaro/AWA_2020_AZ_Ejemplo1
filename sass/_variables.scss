@@ -1,0 +1,14 @@
+@mixin borderedbox($color:#000) {
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border: 3px solid #000000;
+    background-color: $color;
+    margin : 10px;
+    padding: 10px;
+    height: 45%;
+}
+
+$color_texto_titulo : rgb(216, 103, 103);
+$color_fondo : #AAA;
+$tamano_imagen: 100px;

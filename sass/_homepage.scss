@@ -1,0 +1,43 @@
+h1 {
+    color : $color_texto_titulo;
+    font-size : 25px;
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    color: #222222;
+    font-size : 20px;
+}
+.fondo-verde {
+    background-color: rgba(132, 194, 132, 0.37);
+}
+
+.fondo-azul {
+    background-color: rgb(48, 15, 233);
+}
+
+.altura-completa {
+    height : 100vh;
+}
+
+.imagen-homogenea {
+    width: $tamano_imagen;
+    height: $tamano_imagen;
+}
+
+.imagen-perfil {
+    width: 150px;
+    height: 150px;
+}
+
+.ancho-homegeneo {
+    height: 33%;
+}
+
+#redes {
+    @include borderedbox(#75e679);
+}
+
+#hobbies {
+    @include borderedbox(#75e2e6);
+}
